@@ -1,0 +1,113 @@
+* /*original page settings*/
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body /*content display*/
+  {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header /*Header and content*/
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0c7073;
+    padding: 20px;
+    color: white;
+  }
+  
+  .logo
+  {
+    font-size: 1.5rem;
+  }
+
+  .logo img
+  {
+    height: 50px;
+    width: auto;
+  }
+  
+  .navbar a
+  {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .navbar
+  {
+    display: flex;
+  }
+  
+
+  .hero /* Hero section*/
+  {
+    background: #70bfa3;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero h1
+  {
+    font-size: 2.5rem;
+  }
+  
+  .hero p
+  {
+    margin: 20px 0;
+    font-size: 1.2rem;
+  }
+  
+  .cta-button
+  {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #0c7073;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  footer /* Footer Content*/
+  {
+    background: #0c7073;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  .Links a
+  {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  
+  @media (max-width: 768px) /* For Responsive Effect*/
+  {
+    .navbar
+    {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    header
+    {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero h1
+    {
+      font-size: 2rem;
+    }
+  }
+  
