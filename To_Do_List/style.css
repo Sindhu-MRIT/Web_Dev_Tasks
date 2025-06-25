@@ -1,0 +1,111 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #8048a0, #b34772);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: rgb(190, 100, 193);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 2px solid #cf29ae;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background: #7b2cbf;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #9d4edd;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f8f9fa;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+li.completed {
+  text-decoration: line-through;
+  background: #d3f9d8;
+  color: #888;
+}
+
+.remove-btn {
+  background: #ff6b6b;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.remove-btn:hover {
+  background: #ff4d4d;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#undoBtn, #resetBtn {
+  background-color: #ffb703;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#undoBtn:hover {
+  background-color: #faa307;
+}
+
+#resetBtn {
+  background-color: #d00000;
+}
+
+#resetBtn:hover {
+  background-color: #9d0208;
+}
